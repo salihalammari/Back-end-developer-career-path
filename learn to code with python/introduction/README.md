@@ -5,7 +5,7 @@
 Python is a high-level, interpreted programming language known for its readability and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
 Python doesn't have to be your first language, but I think it's the best first language for most developers. It gets out of your way so you can focus on learning fundamental programming concepts.
 
-Hundreds of thousands of students start their coding journey right here with [Python] (https://www.python.org/ ).
+Hundreds of thousands of students start their coding journey right here with [Python](https://www.python.org/ ).
 
 But just because Python is simple doesn't mean it's not useful! Python is an [extremely popular](https://survey.stackoverflow.co/2024/technology ) language in the industry, and is well-known for:
  - Backend web servers
@@ -86,9 +86,7 @@ Remember how we used the print() instruction to print text to the console? We ca
 
 ``` print(42) ```
 
-Well, addition is one of the most common instructions in programming. This also prints the number 42:
-
-
+Well, [addition](https://en.wikipedia.org/wiki/Addition ) is one of the most common instructions in programming. This also prints the number 42:
 
 ### Key Points:
 - Code can be compiled or interpreted.
