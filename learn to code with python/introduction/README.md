@@ -129,6 +129,26 @@ It has mismatched quotes around the string `hello world`. One is a single quote 
 ### Assignment
 There's a bug in our game, and our players are distraught.
 Find the syntax error in the code editor, and fix it.
+# Syntax Errors Quiz
+Syntax: The rules for how [expressions](https://en.wikipedia.org/wiki/Expression_(computer_science) ) and [statements](https://en.wikipedia.org/wiki/Statement_(computer_science) ) should be structured in a language. For example, in Python, the following is correct syntax:
+
+```print("hello world")```
+While in a different programming language, like Go, the correct syntax would be:
+```fmt.Println("hello world")```
+Syntax errors aren't the only kind of problems you can run into when coding, for example:
+ . A bug in your logic. Your code is valid, and will run, but it does something unexpected.
+ . It's too slow. Your code is valid and does what's expected, but it does it slowly
+
+In this course, we're just concerned with syntax and logic errors. We'll cover performance issues in a later course.
+
+# Game Statistics
+Our team is asking for some stats on our Fantasy Quest game servers. They'd like to know the average number of players on the 4 servers.
+
+### Assignment
+Debug the code so that it correctly prints the solution to the math problem.
+
+Remember, `print()` just prints the text in quotes. If you want to print the result of a mathematical expression, you can't put it in quotes.
+
 ### Key Points:
 - Code can be compiled or interpreted.
 - It is often organized into functions, classes, and modules.
