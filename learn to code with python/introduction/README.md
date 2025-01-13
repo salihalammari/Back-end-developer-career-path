@@ -88,6 +88,47 @@ Remember how we used the print() instruction to print text to the console? We ca
 
 Well, [addition](https://en.wikipedia.org/wiki/Addition ) is one of the most common instructions in programming. This also prints the number 42:
 
+``` print(42 + 2) ```
+
+It first calculates the sum inside the parentheses, and then prints the result.
+### Assignment
+Simple addition is used all the time in game development. In Fantasy Quest, we want weapons to deal bonus damage when they're enchanted.
+Our hero's sword deals `250` damage normally, but should deal an additional `75` damage when it's enchanted.
+
+Calculate and print the result of `250 + 75`
+
+# Multiple Instructions
+Code runs in order, starting at the top of the program. For example:
+
+```bash 
+print("this prints first")
+print("this prints second")
+print("this prints last") 
+```
+Each `print()` instruction prints on a new line.
+
+### Assignment
+The dialogue in our game should display in the correct order! In the first level, our hero encounters a talking owl named Jax.
+  1. Run (not submit) the code and see that it's printed in the wrong order
+  2. Rearrange the code so that it prints in the following (correct) order:
+
+```bash
+Jax: B-Kaw!
+Hero: ...
+Jax: Where are you off to this morning? Bkaw...
+Hero: Where did an owl learn to speak??
+```
+
+# Syntax Errors
+
+["Syntax"](https://en.wikipedia.org/wiki/Syntax_(programming_languages) ) is jargon for "valid code that the computer can understand". For example, the following code has invalid syntax:
+```print("hello world')```
+
+It has mismatched quotes around the string `hello world`. One is a single quote `'` and the other is a double quote `"`.
+
+### Assignment
+There's a bug in our game, and our players are distraught.
+Find the syntax error in the code editor, and fix it.
 ### Key Points:
 - Code can be compiled or interpreted.
 - It is often organized into functions, classes, and modules.
