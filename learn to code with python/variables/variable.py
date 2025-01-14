@@ -68,3 +68,14 @@ print(player_poison_health)
 #the best_sword variable holds the value of the best sword in the game
 best_sword = "scimitar"
 print(best_sword)
+
+#Assignment
+#Fix the bugs in the code. player_health should be an integer and player_has_magic should be a boolean.
+player_health = 100
+
+player_has_magic = True
+
+# don't touch below this line
+print(f"player_health is a/an {type(player_health).__name__}")
+print(f"player_has_magic is a/an {type(player_has_magic).__name__}")
+
