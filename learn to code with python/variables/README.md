@@ -42,3 +42,26 @@ product = a * b    # Multiplication
 quotient = a / b   # Division
 ```
 Parentheses can be used to order [math operations](https://www.mathsisfun.com/operation-order-pemdas.html ).
+
+```avg = (a + b + c) / 3```
+# Negative Numbers
+Negative numbers in Python work the way you probably expect. Just add a minus sign:
+
+```my_negative_num = -1```
+
+# Comments
+Comments don't do... anything. They are ignored by the Python interpreter. That said, they're good for what the name implies: adding comments to your code in plain English (or whatever language you speak).
+
+# Single Line Comment
+
+## Multi-Line Comments [(Aka docstrings)](https://peps.python.org/pep-0257/ )
+
+# Variable Names
+Variable names can not have spaces, they're continuous strings of characters.
+The creator of the Python language himself, [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum ),[implores us](https://peps.python.org/pep-0008/#function-and-variable-names ) to use `snake_case ` for variable names. What is snake case? It's just a style for writing variable names. Here are some examples of different casing styles:
+| Name	      |                    Description	                              |     Code      |	Language(s) that recommend it  |
+|-------------|---------------------------------------------------------------|---------------|--------------------------------|
+| Snake Case  | All words are lowercase and separated by underscores          | my_hero_health|	   Python, Ruby, Rust          |
+| Camel Case  |	Capitalize the first letter of each word except the first one |	myHeroHealth  |    JavaScript, Java            |
+| Pascal Case | Capitalize the first letter of each word	                  | MyHeroHealth  |    C#, C++                     |
+| No Casing   |	All lowercase with no separation	                          | myherohealth  |    No one: don't do this       |
