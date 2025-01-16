@@ -96,3 +96,17 @@ A ["Boolean"](https://docs.python.org/3/c-api/bool.html#boolean-objects ) (or "b
 is_tall = True
 is_short = False
 ```
+# F-Strings in Python
+Ever played Pokemon and chosen a funny name so that the in-game messages would come out funny?
+In Python we can create strings that contain dynamic values with the [f-string](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals ) syntax.
+
+```bash
+num_bananas = 10
+f_string = f"You have {num_bananas} bananas"
+print(f_string)
+# You have 10 bananas
+```
+. Opening quotes must be preceded by an `f`.
+. Variables within curly brackets have their values "interpolated" (injected) into the string.
+. It's just a string with a special syntax.
+
