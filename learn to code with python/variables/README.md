@@ -158,4 +158,17 @@ Languages that aren’t dynamically typed are [statically typed](mozilla), such 
 
 If Python were statically typed, the first example from before would crash on the second line, `speed = "five"`. The computer would give an error along the lines of `you can't assign a string value ("five") to a number variable (speed).`
 
+# Math With Strings
+When working with strings the `+` operator performs a [“concatenation”](https://en.wikipedia.org/wiki/Concatenation ), which is a fancy word that means “joining two strings”. Generally speaking, it’s better to use string interpolation with `f-strings` over `+` concatenation.
+
+```bash
+first_name = "Lane "
+last_name = "Wagner"
+full_name = first_name + last_name
+print(full_name)
+# prints "Lane Wagner"
+```
+`full_name` now holds the value “Lane Wagner”.
+
+Notice the extra space at the end of `"Lane "` in the `first_name` variable. That extra space is there to separate the words in the final result: `"Lane Wagner"`.
 

@@ -102,3 +102,21 @@ print(f"{name} is a {race} who is {age} years old.")
 enemy = None
 # don't touch below this line
 print(enemy is None)
+
+# Assignment
+# We have a second player in our game!
+# We need to tell each of our players how much health they have left.
+# Edit line 9 to print Player 1’s health: You have 1200 health using string concatenation and the variables provided
+# Edit line 10 to print Player 2’s health: You have 1100 health in the same way
+# Only print “You have x health” once for each player, nothing else.
+
+sentence_start = "You have "
+sentence_end = " health"
+
+player1_health = "1200"
+player2_health = "1100"
+
+# Don't edit above this line
+
+print(sentence_start + player1_health + sentence_end)
+print(sentence_start + player2_health + sentence_end)
