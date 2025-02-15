@@ -58,13 +58,13 @@ Comments don't do... anything. They are ignored by the Python interpreter. That 
 
 # Variable Names
 Variable names can not have spaces, they're continuous strings of characters.
-The creator of the Python language himself, [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum ),[implores us](https://peps.python.org/pep-0008/#function-and-variable-names ) to use `snake_case ` for variable names. What is snake case? It's just a style for writing variable names. Here are some examples of different casing styles:
+The creator of the Python language himself, [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum ),[implores us](https://peps.python.org/pep-0008/#function-and-variable-names ) to use `snake_case ` for variable names. What is a snake case? It's just a style for writing variable names. Here are some examples of different casing styles:
 | Name	      |                    Description	                              |     Code      |	Language(s) that recommend it  |
 |-------------|---------------------------------------------------------------|---------------|--------------------------------|
 | Snake Case  | All words are lowercase and separated by underscores          | my_hero_health|	   Python, Ruby, Rust          |
 | Camel Case  |	Capitalize the first letter of each word except the first one |	myHeroHealth  |    JavaScript, Java            |
-| Pascal Case | Capitalize the first letter of each word	                  | MyHeroHealth  |    C#, C++                     |
-| No Casing   |	All lowercase with no separation	                          | myherohealth  |    No one: don't do this       |
+| Pascal Case | Capitalize the first letter of each word	                    | MyHeroHealth  |    C#, C++                     |
+| No Casing   |	All lowercase with no separation	                            | myherohealth  |    No one: don't do this       |
 
 To be clear, your Python code will still work with Camel Case or Pascal Case, but can we please just have nice things? We just want some consistency in our craft.
 
@@ -98,7 +98,7 @@ is_short = False
 ```
 # F-Strings in Python
 Ever played Pokemon and chosen a funny name so that the in-game messages would come out funny?
-In Python we can create strings that contain dynamic values with the [f-string](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals ) syntax.
+In Python, we can create strings that contain dynamic values with the [f-string](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals ) syntax.
 
 ```bash
 num_bananas = 10
@@ -121,8 +121,8 @@ The value of `my_mental_acuity` in this case is `None` until we use the assignme
 [NoneType](https://docs.python.org/3/library/types.html#types.NoneType ) is not the same as a string with a value of "None":
 
 ```bash
-my_none = None # this is a None-type
-my_none = "None" # this is a string with the value "None"
+my_none = None # This is a None-type
+my_none = "None" # This is a string with the value "None"
 ```
 # NoneType Quiz
 As we mentioned in the last exercise, the `None` keyword is used to define an "empty" variable.
@@ -154,7 +154,7 @@ speed_description = "five"
 ```
 # What Is Non-Dynamic Typing?
 
-Languages that aren’t dynamically typed are [statically typed](mozilla), such as Go (which you’ll learn in a later course ). In a statically typed language, if you try to assign a value to a variable of the wrong type, an error would crash the program.
+Languages that aren’t dynamically typed are [statically typed](Mozilla), such as Go (which you’ll learn in a later course ). In a statically typed language, if you try to assign a value to a variable of the wrong type, an error would crash the program.
 
 If Python were statically typed, the first example from before would crash on the second line, `speed = "five"`. The computer would give an error along the lines of `you can't assign a string value ("five") to a number variable (speed).`
 
